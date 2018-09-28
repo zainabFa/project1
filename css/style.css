@@ -1,0 +1,607 @@
+
+body{
+    background-color: #FFF;
+}
+
+.continar{
+    width: 1170;
+    margin: auto;
+}
+
+.clear-fix{clear: both;}
+/* start header ^ navbar */
+.header .slider{
+     background-image: url('../img/z.jpg');
+   -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o- background-size: cover;
+     background-size: cover;
+   
+    
+     height: 600px;
+   
+  
+   
+}
+
+.header .slider .intro{
+      padding-top: 500px;
+    height: 600px;
+    color: black;
+    text-align: center;
+    
+  
+    
+}
+
+.header .slider .intro span{
+    color:#00aaff;
+     font-family: "Arial Rounded MT Bold", serif;
+    font-size: 50px;
+}
+
+
+.header .slider .intro h2{
+  
+    text-shadow:1px 1px 0 #444;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 40px;
+      border-top: 5px solid #424242;
+      border-bottom: 5px solid #424242;
+    padding: 1px;
+    font-weight:900;
+    position: absolute;
+    top:200;
+    right: 50;
+   
+   
+
+}
+
+.header .slider .intro button{
+    background: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: 2px solid  #00aaff ;
+    position: absolute;
+    top: 300px;
+    right: 180px;
+   
+}
+.header .nav {
+    background-color: #424242;
+    color: #E0E0E0;
+    overflow: hidden;
+   
+}
+
+
+.header .nav h2 {
+     text-transform: uppercase;
+    float:left;
+    font-family: "Lucida Calligraphy",monospace;
+    
+}
+
+.header .nav h2 span{
+     text-transform: uppercase;
+    color:  #00aaff;
+}
+
+.header .nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    overflow: hidden;
+    float: right;
+}
+
+.header .nav ul li {float: left; padding: 10px;}
+
+
+.header .nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.header .nav ul li a:active ,
+.header .nav ul li a:hover{color: #00aaff;}
+/* end the header */
+
+
+/* begin the features */
+
+.featuers{
+    overflow: hidden;
+padding-top: 50px;
+padding-bottom: 60px;
+   
+}
+
+.featuers .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+ 
+}
+
+.featuers .feat h2{
+    text-transform: uppercase;
+    color: #00aaff ;
+    font-size: 18px;
+    padding-left: 35px;
+  
+}
+
+.featuers  blockquote{
+    line-height: 1.7;
+    color: #424242;
+   text-align: center;
+
+    width: 60%;
+  
+}
+/* end of featurs */
+
+
+/* start about me */
+
+.about{
+    background-color:#EEEEEE;
+    overflow: hidden;
+  
+   
+}
+
+.about .image{
+    float: left;
+     width: 40%;
+}
+
+.about .image img{width: 100%}
+
+.about .info{
+     
+    float: left;
+    width: 60%;
+}
+
+.about .info h2{
+     
+   margin: 40px 0 20px 40px;
+    color: #424242;
+}
+
+.about .info > p{
+     
+   margin: 0px 0 10px 40px;
+   
+}
+
+
+.about .info > p:last-of-type{
+     
+   margin-top: 30px;
+
+}
+
+
+.about .info p{
+   line-height: 1.5;
+    color: #757575;
+}
+
+.about .info .hobbies{
+    overflow: hidden;
+    margin: 20px 0 0 40px ;
+}
+
+
+
+.about .info .hobbies > div{
+    width: 50%;
+    float: left;
+    min-height: 100px;
+}
+
+
+.about .info .hobbies > div h3{
+    color: #424242;
+}
+
+/* end about me */
+
+
+/* start my skills */
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    
+}
+
+
+.my-skills .skills ,
+.my-skills .progress{
+     float: left;
+    width: 50%;
+    
+}
+
+.my-skills .skills  h2{}
+
+.my-skills .skills  p{}
+
+
+.my-skills .skills h2{
+     
+   margin: 40px 0 20px 40px;
+    color: #424242;
+}
+
+
+.my-skills .skills p{
+     
+  margin: 0px 0 10px 40px;
+    line-height: 1.5;
+    color: #757575;
+}
+
+.my-skills .skills  p:last-of-type{
+     
+   margin-top: 25px;
+
+}
+
+.my-skills .skills button{
+   
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.my-skills .progress .T{
+    margin-left: 50px;
+}
+
+.my-skills .progress .T h3{
+     color: #424242;
+    
+    
+}
+
+.my-skills .progress .T div{
+     background-color: #F2F2F2;
+    height: 25px;
+    
+    
+}
+
+
+.my-skills .progress .T div span{
+     background-color:  #80d4ff;
+    height: 25px;
+   
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+    
+    
+}
+/* end my skills */
+
+
+
+
+/* start resume */
+
+
+.resume{
+    background-color:#ECEFF1;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    overflow: hidden;
+}
+.resume h2{
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.resume p{
+    line-height: 1.5;
+    color: #757575;
+    padding: 0 40px;
+    
+}
+
+.resume button{
+    padding-top: 10px;
+}
+
+
+/* end resume */
+
+/* start my-education */
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+}
+
+
+.my-education .main{
+    width: 50%;
+    margin-right: 5%;
+     float: left;
+    
+    
+}
+.my-education .exp{
+    width: 45%;
+     float: left;
+    
+    
+}
+
+
+.my-education .main h2{
+     
+   margin: 25px 0 20px 40px;
+    color: #424242;
+}
+
+
+.my-education .main p{
+     
+  margin: 0px 0 10px 40px;
+    line-height: 1.5;
+    color: #757575;
+    
+}
+
+.my-education .main  p:last-of-type{
+     
+   margin-top: 25px;
+
+}
+
+.my-education .exp h3{
+    margin-top: 80px;
+      margin-bottom: 10px;
+}
+
+.my-education .exp {
+ width: 45%;
+    float: left;}
+.my-education .exp span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.my-education .exp span:last-of-type{
+    color: white;
+    background-color:  #00aaff;
+    display: inline-block;
+    padding: 4px 10px;
+    
+}
+
+.my-education .exp hr{
+    margin: 20px 0;
+    height: 1px;
+    background-color: #999;
+    border: 0;
+}
+
+.my-education .exp p{
+     line-height: 1.5;
+    color: #757575;
+    
+}
+
+/* end my my-education */
+
+
+/* start testmeonal*/
+.test{
+    background-color:#ECEFF1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.test blockquote{
+     line-height: 1.5;
+    color: #757575;
+    font-size: 18px;
+    font-style: italic;
+    
+    
+}
+
+.test ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.test ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #66ccff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.test ul li.active{
+    background-color:  #66ccff;
+}
+
+
+.test ul li:hover
+{
+    background-color:#66ccff;
+}
+
+
+/* endtestmoinal */
+
+/* start portofolie*/
+
+.portfolio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio h3{
+     
+   margin: 40px 0 20px 40px;
+    color: #424242;
+    text-transform: uppercase;
+}
+
+.portfolio p{
+    line-height: 1.5;
+    color: #757575; 
+}
+
+.portfolio .work{
+    overflow: hidden;
+}
+
+.portfolio .work > div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+
+.portfolio .work > div img{width: 92%;
+margin: 10px;}
+
+/* start  portofolie*/
+
+/* start contact*/
+.contact{
+    background-color:#455A64;
+    overflow: hidden;
+    
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+
+.contact .info
+{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+.contact .info h3{color:#D1D6DA;
+margin-left: 40px;
+text-transform: uppercase;
+}
+
+
+
+
+.contact .info p{
+    color: whitesmoke; 
+    margin-left: 40px;
+    line-height: 1.5;
+}
+
+.contact .info p strong{color: #D1D6DA;}
+
+
+.contact .form{
+    width: 45%;
+    float: left;
+}
+
+.contact  .form label{
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0;
+}
+
+.contact .form input[type="text"]{
+   
+    padding: 10px;
+    background-color: #EEEEEE;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact .form textarea{
+   
+    padding: 10px;
+    background-color: #EEEEEE;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.contact .form input[type="submit"]{
+   background-color: #263238;
+    padding: 10px 20px;
+   color: #EEEEEE;
+    border: 0;
+   
+   
+    margin-top: 10px;
+}
+
+
+/* end cntact*/
+
+/* start footer*/
+
+.footer{
+    background-color: #263238;
+     color: #E0E0E0;
+    text-align: center;
+    padding: 20px 0;
+   
+    
+}
+.footer span{
+    font-family: sans-serif;
+    font-variant: normal;
+    font-style: italic;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+    
+}
+.footer ul li{
+    display: inline;
+}
+/* end footer */
+
+
+
+.my-button{
+    background: none;
+    padding: 10px 30px;
+    border: 3px solid  #00aaff;
+        color: #00aaff;
+    font-weight: bold;
+   
+}
+   
+
